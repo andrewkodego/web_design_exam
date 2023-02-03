@@ -156,23 +156,29 @@ h1 img{
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 5px;
+    margin-top: 15px;
 }
 
 
 .download-links .columns{
     border: 1px solid #ccc;
     background-color: #eee;
-    margin: 0 10px;
+    margin: 5px 15px 0px;
     max-width: 220px;
 }
 
 .download-links .columns:first-child{
     margin-left: 0;
+    margin-top: 0;
     background-color: transparent;
     border: none;
 }
 
-.download-links .columns>div{
+.download-links .columns>a{
+    color: #555555;
+}
+
+.download-links .columns>a>div{
     padding: 10px;
     margin: 10px 0;
 }
@@ -201,6 +207,43 @@ h1 img{
     display: inline-block;
     margin: 0;
 }
+
+.video-wrapper{
+    align-items: center;
+    max-width: 480px;
+    height: 270px;
+    justify-content: center;
+    margin: auto;
+    background-image:url('../images/hqdefault.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.fa-circle-play{
+    font-size: 150px;
+    color: #fff;
+}
+
+.play-button{
+    width: 150px;
+    height: 150px;    
+    border-radius: 50%;
+    background-color: #00000077;
+    margin: auto;
+}
+
+.content-container{
+    margin: 30px 0 60px;
+}
+
+.new-release{
+    border: 1px solid #ccc;
+    background-color: #eee;  
+    padding: 30px;
+}
+
 
 .footer{
     height: 140px;
